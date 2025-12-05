@@ -1,0 +1,63 @@
+.page-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.star-row {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.star {
+    font-size: 32px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star.active {
+    color: #ffca28;
+}
+
+textarea {
+    width: 100%;
+    min-height: 110px;
+    resize: vertical;
+    padding: 12px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+button.submit-btn {
+    width: 100%;
+    padding: 13px;
+    font-size: 16px;
+    background: #0070f3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.ai-response-box {
+    margin-top: 30px;
+    padding: 18px;
+    background: #000000;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    line-height: 1.5;
+}
