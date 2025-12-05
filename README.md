@@ -17,4 +17,4 @@ The system is powered by **Next.js (JavaScript)**, **Supabase**, **Google Gemini
 | 🔐 Admin Dashboard | `https://ai-feedback-dashboard-deployment-lcnahw47u.vercel.app/admin` |
 
 
-#The `yelp-reviews.ipynb` notebook contains the solution for **Task 1**
+# The `yelp-reviews.ipynb` notebook contains the solution for **Task 1**
